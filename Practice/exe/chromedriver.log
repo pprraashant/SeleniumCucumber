@@ -1,0 +1,229 @@
+[1.114][INFO]: COMMAND InitSession {
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "loggingPrefs": {
+         "browser": "DEBUG"
+      },
+      "platform": "ANY",
+      "version": ""
+   }
+}
+[1.116][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "show_welcome_page": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1.117][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1.125][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-component-update --disable-default-apps --disable-hang-monitor --disable-infobars --disable-popup-blocking --disable-prompt-on-repost --disable-sync --disable-web-resources --enable-logging --ignore-certificate-errors --load-component-extension="C:\Users\sgirme\AppData\Local\Temp\scoped_dir17880_4355\internal" --log-level=0 --metrics-recording-only --no-first-run --password-store=basic --remote-debugging-port=12033 --safebrowsing-disable-auto-update --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\sgirme\AppData\Local\Temp\scoped_dir17880_32348" data:,
+[1.551][INFO]: resolved localhost to ["127.0.0.1"]
+[1.786][INFO]: RESPONSE InitSession {
+   "acceptSslCerts": true,
+   "applicationCacheEnabled": false,
+   "browserConnectionEnabled": false,
+   "browserName": "chrome",
+   "chrome": {
+      "chromedriverVersion": "2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed)",
+      "userDataDir": "C:\\Users\\sgirme\\AppData\\Local\\Temp\\scoped_dir17880_32348"
+   },
+   "cssSelectorsEnabled": true,
+   "databaseEnabled": false,
+   "handlesAlerts": true,
+   "hasTouchScreen": false,
+   "javascriptEnabled": true,
+   "locationContextEnabled": true,
+   "mobileEmulationEnabled": false,
+   "nativeEvents": true,
+   "networkConnectionEnabled": false,
+   "pageLoadStrategy": "normal",
+   "platform": "Windows NT",
+   "rotatable": false,
+   "takesHeapSnapshot": true,
+   "takesScreenshot": true,
+   "~~~": "..."
+}
+[1.818][INFO]: COMMAND Navigate {
+   "url": "https://tst04.stage.att.com/shop/wireless/devices/smartphones.html"
+}
+[1.818][INFO]: Waiting for pending navigations...
+[1.820][INFO]: Done waiting for pending navigations. Status: ok
+[6.715][INFO]: Waiting for pending navigations...
+[31.557][INFO]: Done waiting for pending navigations. Status: ok
+[31.557][INFO]: RESPONSE Navigate
+[36.570][INFO]: COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "return ddo.debug2()"
+}
+[36.571][INFO]: Waiting for pending navigations...
+[59.696][INFO]: Done waiting for pending navigations. Status: ok
+[59.702][INFO]: Waiting for pending navigations...
+[59.703][INFO]: Done waiting for pending navigations. Status: ok
+[59.703][INFO]: RESPONSE ExecuteScript "3"
+[64.710][INFO]: COMMAND Navigate {
+   "url": "https://tst04.stage.att.com/shop/wireless/devices/cellphones.html"
+}
+[64.710][INFO]: Waiting for pending navigations...
+[64.712][INFO]: Done waiting for pending navigations. Status: ok
+[65.158][INFO]: Waiting for pending navigations...
+[121.654][INFO]: Done waiting for pending navigations. Status: ok
+[121.654][INFO]: RESPONSE Navigate
+[138.162][INFO]: COMMAND GetLog {
+   "type": "browser"
+}
+[138.168][INFO]: RESPONSE GetLog [ {
+   "level": "WARNING",
+   "message": "https://tst04.stage.att.com/scripts/adobe/virtual/detm-container-hdr.js 0 A Parser-blocking, cross-origin script, https://2.ecom.attccc.com/scripts/adobe/stage/edmDataManager.js, is invoked via doc...",
+   "source": "javascript",
+   "timestamp": 1479983210908.0
+}, {
+   "level": "WARNING",
+   "message": "https://tst04.stage.att.com/scripts/adobe/virtual/detm-container-hdr.js 0 A Parser-blocking, cross-origin script, https://2.ecom.attccc.com/scripts/adobe/stage/edmDataManager.js, is invoked via doc...",
+   "source": "javascript",
+   "timestamp": 1479983210909.0
+}, {
+   "level": "WARNING",
+   "message": "https://tst04.stage.att.com/scripts/adobe/virtual/detm-container-hdr.js 1 A Parser-blocking, cross-origin script, https://2.ecom.attccc.com/scripts/adobe/stage/edmDataDefinition.js, is invoked via ...",
+   "source": "javascript",
+   "timestamp": 1479983210909.0
+}, {
+   "level": "WARNING",
+   "message": "https://tst04.stage.att.com/scripts/adobe/virtual/detm-container-hdr.js 2 A Parser-blocking, cross-origin script, https://2.ecom.attccc.com/scripts/adobe/stage/dataMappingFramework.min.js, is invok...",
+   "source": "javascript",
+   "timestamp": 1479983210909.0
+}, {
+   "level": "WARNING",
+   "message": "https://tst04.stage.att.com/scripts/adobe/virtual/detm-container-hdr.js 9 A Parser-blocking, cross-origin script, https://assets.adobedtm.com/8bb7555f31d461fe2aef4e2d53a11a03e7f9a04c/satelliteLib-b...",
+   "source": "javascript",
+   "timestamp": 1479983210909.0
+}, {
+   "level": "WARNING",
+   "message": "https://assets.adobedtm.com/8bb7555f31d461fe2aef4e2d53a11a03e7f9a04c/satelliteLib-bee1ce9b89e943a46b1dfd167adc564fe75eef37-staging.js 9 A Parser-blocking, cross-origin script, https://assets.adobed...",
+   "source": "javascript",
+   "timestamp": 1479983212612.0
+}, {
+   "level": "WARNING",
+   "message": "https://assets.adobedtm.com/8bb7555f31d461fe2aef4e2d53a11a03e7f9a04c/satelliteLib-bee1ce9b89e943a46b1dfd167adc564fe75eef37-staging.js 9 A Parser-blocking, cross-origin script, https://assets.adobed...",
+   "source": "javascript",
+   "timestamp": 1479983212612.0
+}, {
+   "level": "INFO",
+   "message": "https://tst04.stage.att.com/shop/wireless/devices/smartphones.html 4884:136 \"random no genarated:14\"",
+   "source": "console-api",
+   "timestamp": 1479983213493.0
+}, {
+   "level": "WARNING",
+   "message": "https://assets.adobedtm.com/8bb7555f31d461fe2aef4e2d53a11a03e7f9a04c/satelliteLib-bee1ce9b89e943a46b1dfd167adc564fe75eef37-staging.js 9 A Parser-blocking, cross-origin script, https://assets.adobed...",
+   "source": "javascript",
+   "timestamp": 1479983213512.0
+}, {
+   "level": "WARNING",
+   "message": "https://assets.adobedtm.com/8bb7555f31d461fe2aef4e2d53a11a03e7f9a04c/satelliteLib-bee1ce9b89e943a46b1dfd167adc564fe75eef37-staging.js 9 A Parser-blocking, cross-origin script, https://assets.adobed...",
+   "source": "javascript",
+   "timestamp": 1479983213512.0
+}, {
+   "level": "INFO",
+   "message": "https://tst04.stage.att.com/shopcms/cellphonelist/clientlib/clientlib.min.js 1149:8 \"iruSpecificDevicePrices  subsidizedPricingAllowed  enrolledInCoPay  allowNextUpgForCoPayEnrolledLine true\"",
+   "source": "console-api",
+   "timestamp": 1479983213543.0
+}, {
+   "level": "INFO",
+   "message": "https://tst04.stage.att.com/scripts/revolution1.1.0/revolution_combined.js 583:11 \"Rev Debug: User Agent is: mozilla/5.0 (windows nt 6.1; wow64) applewebkit/537.36 (khtml, like gecko) chrome/54.0.2...",
+   "source": "console-api",
+   "timestamp": 1479983214078.0
+}, {
+   "level": "INFO",
+   "message": "https://tst04.stage.att.com/scripts/revolution1.1.0/revolution_combined.js 584:11 \"Rev Debug: App Version is: 5.0 (windows nt 6.1; wow64) applewebkit/537.36 (khtml, like gecko) chrome/54.0.2840.99 ...",
+   "source": "console-api",
+   "timestamp": 1479983214079.0
+}, {
+   "level": "INFO",
+   "message": "https://tst04.stage.att.com/scripts/revolution1.1.0/revolution_combined.js 585:11 \"Rev Debug: Is IE10: false\"",
+   "source": "console-api",
+   "timestamp": 1479983214079.0
+}, {
+   "level": "INFO",
+   "message": "https://tst04.stage.att.com/scripts/revolution1.1.0/revolution_combined.js 590:12 \"Rev Debug: Browser & Version is Supported\"",
+   "source": "console-api",
+   "timestamp": 1479983214079.0
+}, {
+   "level": "INFO",
+   "message": "https://tst04.stage.att.com/scripts/revolution1.1.0/revolution_combined.js 595:13 \"Rev Debug: Your Browser type: Chrome\"",
+   "source": "console-api",
+   "timestamp": 1479983214079.0
+}, {
+   "level": "INFO",
+   "message": "https://tst04.stage.att.com/scripts/revolution1.1.0/revolution_combined.js 596:13 \"Rev Debug: Your Browser version: 54\"",
+   "source": "console-api",
+   "timestamp": 1479983214079.0
+}, {
+   "level": "INFO",
+   "message": "https://tst04.stage.att.com/shop/wireless/devices/smartphones.html 475:16 \"DEBUG : Order cookie read - null\"",
+   "source": "console-api",
+   "timestamp": 1479983214114.0
+}, {
+   "level": "INFO",
+   "message": "https://tst04.stage.att.com/shop/wireless/devices/smartphones.html 652:12 \"UUID cookie not found\"",
+   "source": "console-api",
+   "timestamp": 1479983214120.0
+}, "..." ]
+[1265.220][INFO]: COMMAND CloseWindow {
+
+}
+[1265.653][INFO]: RESPONSE CloseWindow
