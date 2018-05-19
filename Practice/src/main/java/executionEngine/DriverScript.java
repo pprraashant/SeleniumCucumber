@@ -39,7 +39,6 @@ public class DriverScript {
     	OR= new Properties(System.getProperties());
 		//Loading all the properties from Object Repository property file in to OR object
 		OR.load(io);
-		System.out.println(OR.elements());
 		System.out.println(OR.getProperty("button"));
     	//Hard coded values are used for Excel row & columns for now
     	//In later chapters we will use these hard coded value much efficiently
