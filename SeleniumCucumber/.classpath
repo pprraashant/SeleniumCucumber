@@ -11,10 +11,17 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
-		<attributes>
-			<attribute name="maven.pomderived" value="true"/>
-		</attributes>
-	</classpathentry>
+	<classpathentry kind="lib" path="/Users/prashantpawar/Documents/Development/Git/SeleniumCucumber/SeleniumCucumber/libs/selenium-server-standalone-2.53.1.jar"/>
+	<classpathentry kind="lib" path="/Users/prashantpawar/Documents/Development/Git/SeleniumCucumber/SeleniumCucumber/libs/selenium-java-2.53.1.jar"/>
+	<classpathentry kind="lib" path="/Users/prashantpawar/Documents/Development/Git/SeleniumCucumber/SeleniumCucumber/libs/picocontainer-2.11.2.jar"/>
+	<classpathentry kind="lib" path="/Users/prashantpawar/Documents/Development/Git/SeleniumCucumber/SeleniumCucumber/libs/junit-4.11.jar"/>
+	<classpathentry kind="lib" path="/Users/prashantpawar/Documents/Development/Git/SeleniumCucumber/SeleniumCucumber/libs/hamcrest-core-1.3.jar"/>
+	<classpathentry kind="lib" path="/Users/prashantpawar/Documents/Development/Git/SeleniumCucumber/SeleniumCucumber/libs/gherkin-jvm-deps-1.0.2.jar"/>
+	<classpathentry kind="lib" path="/Users/prashantpawar/Documents/Development/Git/SeleniumCucumber/SeleniumCucumber/libs/gherkin-2.12.2.jar"/>
+	<classpathentry kind="lib" path="/Users/prashantpawar/Documents/Development/Git/SeleniumCucumber/SeleniumCucumber/libs/cucumber-picocontainer-1.2.2.jar"/>
+	<classpathentry kind="lib" path="/Users/prashantpawar/Documents/Development/Git/SeleniumCucumber/SeleniumCucumber/libs/cucumber-jvm-deps-1.0.5.jar"/>
+	<classpathentry kind="lib" path="/Users/prashantpawar/Documents/Development/Git/SeleniumCucumber/SeleniumCucumber/libs/cucumber-junit-1.2.2.jar"/>
+	<classpathentry kind="lib" path="/Users/prashantpawar/Documents/Development/Git/SeleniumCucumber/SeleniumCucumber/libs/cucumber-java-1.2.2.jar"/>
+	<classpathentry kind="lib" path="/Users/prashantpawar/Documents/Development/Git/SeleniumCucumber/SeleniumCucumber/libs/cucumber-core-1.2.2.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

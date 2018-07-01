@@ -18,7 +18,9 @@ public class Test {
 	    // Write code here that turns the phrase above into concrete actions
 		
 		String workingDir = System.getProperty("user.dir");
-		System.setProperty("webdriver.chrome.driver", workingDir+"\\exe\\chromedriver.exe");
+		//Users/prashantpawar/Documents/Development/Selenium/ChromeDriver
+		//System.setProperty("webdriver.chrome.driver", workingDir+"/exe/ChromeDriver");
+		System.setProperty("webdriver.chrome.driver","/Users/prashantpawar/Documents/Development/Selenium/ChromeDriver");
 		driver=new ChromeDriver();
 		driver.get("http://www.crossword.in");
 	    //throw new PendingException();
