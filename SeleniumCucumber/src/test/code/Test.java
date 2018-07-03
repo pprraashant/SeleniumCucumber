@@ -18,9 +18,20 @@ public class Test {
 	    // Write code here that turns the phrase above into concrete actions
 		
 		String workingDir = System.getProperty("user.dir");
+		System.out.println(workingDir);
+		System.out.println(System.getProperty("os.name"));
+		if(System.getProperty("os.name").contains("windows"))
+		{
 		//Users/prashantpawar/Documents/Development/Selenium/ChromeDriver
 		//System.setProperty("webdriver.chrome.driver", workingDir+"/exe/ChromeDriver");
-		System.setProperty("webdriver.chrome.driver","/Users/prashantpawar/Documents/Development/Selenium/ChromeDriver");
+		}
+		else
+		{
+			//String [] cmd={workingDir+"/exe/MacOS","chmod +x chromedriver"};
+			//Runtime.getRuntime().exec(cmd);
+		//System.setProperty("webdriver.chrome.driver","/Users/prashantpawar/Documents/Development/Selenium/ChromeDriver");
+			System.setProperty("webdriver.chrome.driver", workingDir+"/exe/MacOS/chromedriver");
+		}
 		driver=new ChromeDriver();
 		driver.get("http://www.crossword.in");
 	    //throw new PendingException();
